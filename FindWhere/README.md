@@ -36,7 +36,7 @@ getLatitude() {
 
 ## 🔗 LINKS IMPORTANTES
 [🗂️ Código Fonte](https://github.com/Redwars22/Web2/tree/main/FindWhere)
-[▶️ Executar online]()
+[▶️ Executar online](https://findwhere-1d8b2.firebaseapp.com/?68662)
 
 <hr/>
 
@@ -76,4 +76,4 @@ getLatitude() {
 
 ## 🔗 IMPORTANT LINKS
 [🗂️ Source code](https://github.com/Redwars22/Web2/tree/main/FindWhere)
-[▶️ Run online]()
+[▶️ Run online](https://findwhere-1d8b2.firebaseapp.com/?68662)
