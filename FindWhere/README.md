@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/Redwars22/Web2/main/FindWhere/findwhere_demo.png" width="800px"/>
+
 # 🇧🇷 PORTUGUÊS
 ## 📙 INTRODUÇÃO
 O FindWhere é uma aplicação web construída em Angular que, usando a API do Google Maps, localiza um lugar com base em sua latitude e longitude. Por padrão, ele exibe uma imagem de satélite.
