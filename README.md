@@ -11,7 +11,7 @@
 
 | 🔴 Icon | 🗂 Project | 🖥️ Technology | ▶ Run | 📚 Category |
 |--- |--- |--- |--- |--- |
-| <img src="https://github.com/Redwars22/Web2/blob/main/findwhere.png?raw=true" width="50px"> | **Findwhere** | Angular | ⚠️ NOT AVAILABLE YET | Location |
+| <img src="https://github.com/Redwars22/Web2/blob/main/findwhere.png?raw=true" width="50px"> | **Findwhere** | Angular | [▶️ RUN](https://findwhere-1d8b2.firebaseapp.com/?68662) | Location |
 | <img src="https://github.com/Redwars22/Web2/blob/main/hexmatiz.png?raw=true" width="50px"> | **Hexmatiz** | Angular | ⚠️ NOT AVAILABLE YET | Color and Hex codes preview |
 | <img src="https://github.com/Redwars22/Web2/blob/main/kelhot.png?raw=true" width="50px"> | **Kelhot** | Angular | ⚠️ NOT AVAILABLE YET | Temperature converter |
 | <img src="https://github.com/Redwars22/Web2/blob/main/pendraw.png?raw=true" width="50px"> | **Pendraw** | ReactJS | ⚠️ NOT AVAILABLE YET | Drawing |
