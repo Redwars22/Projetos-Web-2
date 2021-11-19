@@ -35,7 +35,7 @@ getLatitude() {
 *Você deve substituir $API_KEY pela sua chave API, obrigatória, que pode ser obtida na página da API do Google Maps (link acima).*
 
 ## 🔗 LINKS IMPORTANTES
-[🗂️ Código Fonte](https://github.com/Redwars22/Web2/tree/main/FindWhere)
+[🗂️ Código Fonte](https://github.com/Redwars22/Web2/tree/main/FindWhere/src)
 [▶️ Executar online](https://findwhere-1d8b2.firebaseapp.com/?68662)
 
 <hr/>
@@ -75,5 +75,5 @@ getLatitude() {
 *You need to replace $API_KEY with your own key, which is required. You can get it from the Google Maps API website (link above).*
 
 ## 🔗 IMPORTANT LINKS
-[🗂️ Source code](https://github.com/Redwars22/Web2/tree/main/FindWhere)
+[🗂️ Source code](https://github.com/Redwars22/Web2/tree/main/FindWhere/src)
 [▶️ Run online](https://findwhere-1d8b2.firebaseapp.com/?68662)
