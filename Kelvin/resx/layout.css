@@ -1,0 +1,27 @@
+header {
+    display: grid;
+    grid-template-columns: 55px auto;
+    align-items: center;
+}
+
+body {
+    padding: 20px;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+
+.formContainer {
+    margin-top: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+em {
+    font-size: 10pt;
+}

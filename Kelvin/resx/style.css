@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css2?family=Bungee&display=swap);
+
+body {
+  font-family: 'Bungee', display;
+  background-image: url('background.jpeg');
+  background-size: cover;
+  color: white;
+}
+
+.logo {
+    width: 50px;
+}
+
+a {
+    color: rgb(218, 216, 216);
+    margin: 5px;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    font-size: 12pt;
+}
+
+h1 {
+    color: rgba(30, 229, 255, 0.712);
+}
+
+label {}
+
+input {}
