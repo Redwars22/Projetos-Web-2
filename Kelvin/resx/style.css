@@ -63,3 +63,7 @@ button:hover {
 em {
     font-size: 10pt;
 }
+
+.blueText {
+    color:rgb(25, 95, 226);
+}
