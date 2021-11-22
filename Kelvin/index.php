@@ -12,11 +12,11 @@
 <body>
     <header>
         <img class="logo" src="resx/kelvin.png"/>
-        <div class="">
+        <div>
             <a href="">Sobre</a>
             <a href="">Ajuda</a>
             <a href="">Mais Projetos</a>
-            <a href="mailto:">Reporte um bug</a>
+            <a href="mailto:andrewpereira.megabyte@gmail.com">Reporte um bug</a>
         </div>
     </header>
     
