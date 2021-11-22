@@ -9,6 +9,7 @@ body {
 }
 
 main {
+    margin-top: 5%;
     display: grid;
     place-items: center;
     align-items: center;
@@ -22,6 +23,8 @@ form {
     text-align: center;
 }
 
-em {
-    font-size: 10pt;
+footer {
+    margin-top: 6%;
+    display: grid;
+    grid-template-columns: 95% 5%;
 }

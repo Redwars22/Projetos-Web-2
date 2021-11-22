@@ -7,6 +7,7 @@
     <title>🪐️⚙️ Project Kelvin - Gerador de Planetas</title>
     <link rel="stylesheet" href="resx/style.css">
     <link rel="stylesheet" href="resx/layout.css">
+
 </head>
 <body>
     <header>
@@ -24,10 +25,11 @@
         <h1>GERADOR DE PLANETAS</h1>
         <em>Gere um planeta aleatório com o Kelvin</em>
         <div class="formContainer">
-            <form action="" method="post">
+            <form action="generate.php" method="post">
                 <label>INSIRA O NOME DO PLANETA</label>
                 <br/>
-                <input type="text" name="" class="">
+                <input type="text" name="planetName">
+                <br/>
                 <button type="submit">GERAR 🪐️</button>
             </form>
         </div>
@@ -35,8 +37,11 @@
 
     <footer>
         <p>
-
+            Orgulhosamente criado usando PHP, HTML e CSS.
         </p>
+        <a href="">
+            <img src="resx/github.png" width="50px"/>
+        </a>
     </footer>
 </body>
 </html>
