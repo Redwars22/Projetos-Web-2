@@ -27,6 +27,9 @@ and lots of information about them: mass, maximum and minimum temperatures, dist
 code is completely free, which means you can download and modify it and, of course, improve and expand it. Don't forget to pull request so that your changes be 
 included in the original project. Thanks for your attention! Ah, I almost forgot... here are two screenshots of Kelvin:
 
+| <img src="https://media-exp1.licdn.com/dms/image/C4E22AQFh2pFc_EVfkA/feedshare-shrink_800/0/1637597852471?e=1640822400&v=beta&t=4jcKAHW63NOTkqCUeCQS7HcrUCDQwJyS8PKiZG_qJ2w" width="420px"> | <img src="https://media-exp1.licdn.com/dms/image/C4E2CAQHeFcXNL4HE_g/comment-image-shrink_8192_1280/0/1637623692364?e=1637791200&v=beta&t=CMO9ZFzMChrOUPXICo4CR4ZUZro1QkwBCv7oNx6PGf4" width="420px">|
+|--- |--- |
+
 # 🛠️ TECHNOLOGIES THAT I USED:
 * ⏳️ A loooot of patience and some free time
 * 📚️ Some logics, Astronomy and lots of research in Google
