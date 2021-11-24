@@ -14,6 +14,6 @@
 | <img src="https://github.com/Redwars22/Web2/blob/main/findwhere.png?raw=true" width="50px"> | **Findwhere** | Angular | [▶️ RUN](https://findwhere-1d8b2.firebaseapp.com/?68662) | Location |
 | <img src="https://github.com/Redwars22/Web2/blob/main/hexmatiz.png?raw=true" width="50px"> | **Hexmatiz** | Angular | ⚠️ NOT AVAILABLE YET | Color and Hex codes preview |
 | <img src="https://github.com/Redwars22/Web2/blob/main/kelhot.png?raw=true" width="50px"> | **Kelhot** | Angular | ⚠️ NOT AVAILABLE YET | Temperature converter |
-| <img src="https://raw.githubusercontent.com/Redwars22/Web2/main/Kelvin/resx/kelvin.png" width="50px"> | **Kelvin** | PHP | COMING SOON | Planet generator |
+| <img src="https://raw.githubusercontent.com/Redwars22/Web2/main/Kelvin/resx/kelvin.png" width="50px"> | **Kelvin** | PHP | [🧭️ BETA VERSION](https://projectkelvin.redwars22.repl.co/) | Planet generator |
 | <img src="https://github.com/Redwars22/Web2/blob/main/pendraw.png?raw=true" width="50px"> | **Pendraw** | ReactJS | ⚠️ NOT AVAILABLE YET | Drawing |
 | <img src="" width="50px"> | ProjectName | NULL | NULL | NULL|
