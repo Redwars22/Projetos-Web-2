@@ -18,6 +18,7 @@
         </div>
     </header>
     <main>
+        <img src="https://images.emojiterra.com/google/android-10/512px/1fa90.png" width="200px"/>
         <div class="container">
             <?php
                 include('planet.php');
@@ -42,8 +43,8 @@
                     echo "<strong class='blueText'>Luas:</strong> ".$planet->numberOfMoons()."<br/>";
                     echo "<strong class='blueText'>Duração do dia:</strong> ".$planet->dayLength()."<br/>";
                     echo "<strong class='blueText'>Período orbital:</strong> ".$planet->orbitalPeriod()."<br/>";
-                    echo "<strong class='blueText'>Massa:</strong> ".$planet->mass()."<br/>";
-                    echo "<strong class='blueText'>Raio médio:</strong> ".$planet->radius()."";
+                    echo "<strong class='blueText'>Massa:</strong> ".$planet->mass()." Terras <br/>";
+                    echo "<strong class='blueText'>Raio médio:</strong> ".$planet->radius()." km";
                     echo "</div>";
                 }
 

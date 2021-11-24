@@ -1,4 +1,6 @@
 <?php
+    define("JUPITERRADIUS", 71500);
+
     class Planet {
         public $name;
 
@@ -55,8 +57,12 @@
             return(rand(2, 100000)." anos");
         }
 
-        public function mass(){}
+        public function mass(){
+            return(rand(0.5, 400));
+        }
 
-        public function radius(){}
+        public function radius(){
+            return(rand(1500, (7*JUPITERRADIUS)));
+        }
     }
 ?>

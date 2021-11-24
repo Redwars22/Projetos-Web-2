@@ -13,9 +13,9 @@
     <header>
         <img class="logo" src="resx/kelvin.png"/>
         <div>
-            <a href="">Sobre</a>
-            <a href="">Ajuda</a>
-            <a href="">Mais Projetos</a>
+            <a href="https://github.com/Redwars22/Web2/tree/main/Kelvin">Sobre</a>
+            <a href="https://github.com/Redwars22/Web2/tree/main/Kelvin">Ajuda</a>
+            <a href="https://github.com/Redwars22">Mais Projetos</a>
             <a href="mailto:andrewpereira.megabyte@gmail.com">Reporte um bug</a>
         </div>
     </header>
@@ -28,7 +28,7 @@
             <form action="generate.php" method="post">
                 <label>INSIRA O NOME DO PLANETA</label>
                 <br/>
-                <input type="text" name="planetName">
+                <input type="text" name="planetName" autofocus>
                 <br/>
                 <button type="submit">GERAR 🪐️</button>
             </form>
@@ -37,7 +37,7 @@
 
     <footer>
         <p>
-            Orgulhosamente criado usando PHP, HTML e CSS.
+            Orgulhosamente criado por André Pereira usando PHP, HTML e CSS.
         </p>
         <a href="">
             <img src="resx/github.png" width="50px"/>
