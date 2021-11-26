@@ -45,7 +45,7 @@ export class MainComponent {
     let long: string = this.getLongitude();
 
     document.getElementById('map').innerHTML =
-      '<iframe class="mapShow" src="https://www.google.com/maps/embed/v1/view?key=$API_KEY&center=' +
+      '<iframe class="mapShow" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyB9AB8LdcJqwBUWqtGtwaBnLOG5hK50Rjk&center=' +
       lat +
       ',' +
       long +
