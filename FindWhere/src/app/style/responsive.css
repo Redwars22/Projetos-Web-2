@@ -1,0 +1,26 @@
+@media (min-width: 599px) {
+  h5,
+  h6,
+  body {
+    font-size: 15pt;
+  }
+
+  .components {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .container {
+    display: grid;
+    place-items: center;
+  }
+
+  input {
+    width: 350px;
+  }
+
+  .el {
+    margin: 10px;
+  }
+}
