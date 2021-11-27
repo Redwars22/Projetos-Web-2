@@ -1,0 +1,9 @@
+/*Fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+  color: white;
+  background-color: rgb(4, 4, 17);
+  margin: 10%;
+}
