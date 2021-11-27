@@ -1,0 +1,19 @@
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.438);
+}
+
+
+a:hover {
+  color: white;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.links {
+  margin: 10px;
+}
