@@ -16,7 +16,7 @@ request para que as suas alterações sejam incorporadas no projeto orginal. Obr
 * 🌐️🧠️ HTML e CSS (Bem, são o coração de uma página web, certo? xD)
 * 💡️⚡️ Força de vontade (Essencial para qualquer projeto!)
 
-[ ▶️ EXECUTAR ONLINE - EM BREVE]()
+[ ▶️ EXECUTAR ONLINE](https://projectkelvin.redwars22.repl.co/)
 
 ***Futuramente farei um remake do Project Kelvin em ReactNative ou outro framework.***
 <hr/>
@@ -37,6 +37,6 @@ included in the original project. Thanks for your attention! Ah, I almost forgot
 * 🌐️🧠️ HTML and CSS (Well, they are basically the heart of every web page, right? xD)
 * 💡️⚡️ Willpower (Essential for every project!)
 
-[ ▶️ RUN ONLINE - COMING SOON]()
+[ ▶️ RUN ONLINE](https://projectkelvin.redwars22.repl.co/)
 
 ***In the future I'll do a remake of Project Kelvin in ReactNative or other framework.***
