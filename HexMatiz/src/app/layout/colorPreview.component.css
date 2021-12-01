@@ -13,9 +13,10 @@ input {
 button {
   font-family: 'Outfit', sans-serif;
   margin: 10px;
-  width: 25%;
+  width: 35%;
   background-color: rgb(14, 88, 224);
   font-size: 15px;
+  font-weight: bolder;
   border-radius: 5px;
   height: 40px;
   border: none;

@@ -1,0 +1,23 @@
+div {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  margin-top: 10px;
+  place-items: center;
+}
+
+svg {
+  background-color: rgb(20, 43, 255);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+svg:hover {
+  background-color: rgb(5, 18, 143);
+}
+
+a:hover {
+  background-color: red;
+  border-radius: 10px;
+  padding: 1px;
+}
