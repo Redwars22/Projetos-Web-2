@@ -1,5 +1,5 @@
 <a href="https://hexmatiz.firebaseapp.com/?72360">
-	<img src="https://raw.githubusercontent.com/Redwars22/Web2/main/hexmatiz.png" width="50px" height="50px">
+	<img src="https://raw.githubusercontent.com/Redwars22/Web2/main/hexmatiz.png" width="80px" height="80px">
 </a>
 
 *📚️ INSTRUÇÕES: Clique no ícone acima para executar o aplicativo.*
