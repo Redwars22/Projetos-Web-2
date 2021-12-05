@@ -1,0 +1,14 @@
+div {
+  display: grid;
+  grid-template-columns: auto 55px;
+  color: lightgrey;
+  align-items: center;
+}
+
+img {
+  opacity: 70%;
+}
+
+img:hover {
+  opacity: 100%;
+}

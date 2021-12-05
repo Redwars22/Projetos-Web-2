@@ -1,0 +1,18 @@
+<div class="container">
+  <h1 class="description">INSIRA UMA TEMPERATURA E CONVERTA-A</h1>
+  <div class="input">
+    <input type="number" min="-273" value="-33" id="temperature" autofocus />
+  </div>
+  <div class="buttons">
+    <button class="celsiusKelvin" (click)="celsiusToKelvin()">
+      CELSIUS PARA KELVIN
+    </button>
+    <button class="kelvinCelsius" (click)="kelvinToCelsius()">
+      KELVIN PARA CELSIUS
+    </button>
+  </div>
+  <div class="result">
+    <span class="" id="identifierText"></span>
+    <span class="value" id="temperatureText"></span>
+  </div>
+</div>

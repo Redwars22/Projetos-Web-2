@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  color: white;
+  margin: 50px 0px 50px 0px;
+}
+
+.description {
+  font-size: 20px;
+  text-align: center;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  place-items: center;
+}
+
+.value {
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(0, 89, 255);
+}
+
+input {
+  font-size: 45px;
+  font-weight: bolder;
+  width: 300px;
+  text-align: center;
+  border: none;
+  background-color: #000c0f;
+  color: rgb(255, 1, 1);
+}
+
+.buttons {
+  margin: 10px 0 10px 0;
+}
+
+button {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  margin: 10px;
+  opacity: 60%;
+  border: none;
+}
+
+button:hover {
+  opacity: 100%;
+}
+
+.celsiusKelvin {
+  background: rgb(20, 63, 93);
+  background: linear-gradient(
+    222deg,
+    rgba(20, 63, 93, 1) 0%,
+    rgba(0, 45, 232, 1) 100%
+  );
+}
+
+.kelvinCelsius {
+  background: rgb(77, 0, 47);
+  background: linear-gradient(
+    222deg,
+    rgba(77, 0, 47, 1) 0%,
+    rgba(255, 126, 197, 1) 100%
+  );
+}
