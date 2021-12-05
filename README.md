@@ -13,6 +13,6 @@
 |--- |--- |--- |--- |--- |
 | <img src="https://github.com/Redwars22/Web2/blob/main/findwhere.png?raw=true" width="50px"> | **Findwhere** | Angular | [▶️ RUN](https://findwhere-1d8b2.firebaseapp.com/?68662) | Location |
 | <img src="https://github.com/Redwars22/Web2/blob/main/hexmatiz.png?raw=true" width="50px"> | **Hexmatiz** | Angular | [▶️ RUN](https://hexmatiz.firebaseapp.com/?72360) | Color and Hex codes preview |
-| <img src="https://github.com/Redwars22/Web2/blob/main/kelhot.png?raw=true" width="50px"> | **Kelhot** | Angular | ⚠️ NOT AVAILABLE YET | Celsius to Kelvin / Kelvin to Celsius converter |
+| <img src="https://github.com/Redwars22/Web2/blob/main/kelhot.png?raw=true" width="50px"> | **Kelhot** | Angular | [▶️ RUN(BETA)](https://projectkelhot.stackblitz.io/) | Celsius to Kelvin / Kelvin to Celsius converter |
 | <img src="https://raw.githubusercontent.com/Redwars22/Web2/main/Kelvin/resx/kelvin.png" width="50px"> | **Kelvin** | PHP | [▶️ RUN](https://projectkelvin.redwars22.repl.co/) | Planet generator |
 | <img src="" width="50px"> | ProjectName | NULL | NULL | NULL|
