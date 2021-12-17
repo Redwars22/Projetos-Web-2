@@ -9,11 +9,11 @@
 - **📚️ Introdução:** O Kelhot é uma aplicação web que lhe permite converter facilmente temperaturas de Celsius para Kelvin ou vice-versa.
 - **🛠️ Ferramentas:** StackBlitz, VS Code, Angular, TypeScript, HTML, CSS, GoogleFonts
 
-[▶️ EXECUTAR(BETA)](https://projectkelhot.stackblitz.io/)
+[▶️ EXECUTAR](https://projectkelhot.stackblitz.io/)
 
 ## 🇺🇲 ENGLISH(USA)
 
 - **📚️ Introduction:** Kelhot is a web app that allows you to easily convert temperatures from Celsius to Kelvin and vice-versa.
 - **🛠️ Tools:** StackBlitz, VS Code, Angular, TypeScript, HTML, CSS, GoogleFonts
 
-[▶️ EXECUTAR(BETA)](https://projectkelhot.stackblitz.io/)
+[▶️ EXECUTAR](https://projectkelhot.stackblitz.io/)
