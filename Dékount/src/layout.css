@@ -1,0 +1,57 @@
+body {
+    padding: 15px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 60px auto;
+    align-items: center;
+}
+
+a {
+    margin-right: 8px;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+section {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    text-align: center;
+}
+
+input {
+    margin: 20px;
+}
+
+aside {
+    text-align: center;
+    width: 50%;
+}
+
+footer {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 120px auto 45px;
+    align-items: center;
+}
+
+.displayData {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    align-items: center;
+    place-items: center;
+}
+
+.number {
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 4px 2px 3px rgba(32, 150, 150, 1);
+}
