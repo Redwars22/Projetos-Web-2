@@ -30,17 +30,13 @@
         </section>
         <div class="displayData">
             <?php 
-                function getDiscount($price, $percentOfDiscount){
-                    return(
-                        $price - (($price * $percentOfDiscount)/100)
-                    );
-                }
+                include("src/logic.php");
 
                 $price = $_POST['price'];
                 $percentOfDiscount = $_POST['percent'];
                 $discount = getDiscount($price, $percentOfDiscount);
-                echo "<h1 align='right' style='color: red'>DE</h1><span class='number'>".$price."</span>";
-                echo "<h1 align='right' style='color: red'>POR</h1><span class='number'>".$discount."</span>";
+                echo "<h1 align='right' style='color: red'>DE</h1><span class='number'>R$ ".$price."</span>";
+                echo "<h1 align='right' style='color: red'>POR</h1><span class='number'>R$ ".number_format($discount, 2)."</span>";
                 echo "<h1 align='right' style='color: red'>DESCONTO: </h1><span class='number'>".$percentOfDiscount."%</span>";
             ?>
         </div>

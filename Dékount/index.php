@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="src/layout.css">
     <link rel="stylesheet" href="src/theme.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="src/help.js"></script>
 </head>
 
 <body>
@@ -19,7 +20,7 @@
             <a href="https://redwars22.github.io/Portfolio/">O Autor</a>
             <a href="mailto:andrewpereira.megabyte@gmail.com">Feedback</a>
             <a href="">Sobre</a>
-            <a href="">Ajuda</a>
+            <a onclick="say()">Ajuda</a>
         </div>
     </header>
     <main>
