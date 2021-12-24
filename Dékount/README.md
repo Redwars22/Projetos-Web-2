@@ -1,5 +1,5 @@
 <a href="https://projectdekount.redwars22.repl.co/discount.php">
-  <img src="src/dekount.png" width="75px"/>
+  <img src="src/dekount.png" width="70px"/>
 </a>
 
 ## 🇧🇷 PORTUGUÊS(BRASIL) 
