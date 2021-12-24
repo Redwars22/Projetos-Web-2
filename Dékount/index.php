@@ -19,8 +19,8 @@
             <a href="https://github.com/Redwars22">Mais Projetos</a>
             <a href="https://redwars22.github.io/Portfolio/">O Autor</a>
             <a href="mailto:andrewpereira.megabyte@gmail.com">Feedback</a>
-            <a href="">Sobre</a>
-            <a onclick="say()">Ajuda</a>
+            <a onclick="dialog('about')">Sobre</a>
+            <a onclick="dialog('help')">Ajuda</a>
         </div>
     </header>
     <main>
@@ -43,7 +43,7 @@
         </form>
         <aside>
             <h2>Como usar?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores pariatur, nam officiis soluta ullam, non saepe provident eaque quam molestiae sit repudiandae autem sequi ducimus repellendus quas amet. Accusantium, explicabo.</p>
+            <p>Insira o valor total do produto e a porcentagem de desconto que será aplicada. O programa irá calcular o desconto e exibirá o valor final do produto com o desconto.</p>
         </aside>
     </main>
     <footer>

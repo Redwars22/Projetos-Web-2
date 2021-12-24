@@ -20,8 +20,8 @@
             <a href="https://github.com/Redwars22">Mais Projetos</a>
             <a href="https://redwars22.github.io/Portfolio/">O Autor</a>
             <a href="mailto:andrewpereira.megabyte@gmail.com">Feedback</a>
-            <a href="">Sobre</a>
-            <a href="">Ajuda</a>
+            <a onclick="dialog('about')">Sobre</a>
+            <a onclick="dialog('help')">Ajuda</a>
         </div>
     </header>
     <main>
