@@ -1,4 +1,6 @@
-<img src="src/dekount.png" width="75px"/>
+<a href="https://projectdekount.redwars22.repl.co/discount.php">
+  <img src="src/dekount.png" width="75px"/>
+</a>
 
 ## 🇧🇷 PORTUGUÊS(BRASIL) 
 
