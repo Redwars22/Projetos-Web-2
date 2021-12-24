@@ -11,6 +11,7 @@
 
 | 🔴 Icon | 🗂 Project | 🖥️ Technology | ▶ Run | 📚 Category |
 |--- |--- |--- |--- |--- |
+| <img src="https://raw.githubusercontent.com/Redwars22/Web2/main/D%C3%A9kount/src/dekount.png" width="50px"> | **Dékount** | PHP/HTML | [▶️ RUN]() | Discount calculator |
 | <img src="https://github.com/Redwars22/Web2/blob/main/findwhere.png?raw=true" width="50px"> | **Findwhere** | Angular | [▶️ RUN](https://findwhere-1d8b2.firebaseapp.com/?68662) | Location |
 | <img src="https://github.com/Redwars22/Web2/blob/main/hexmatiz.png?raw=true" width="50px"> | **Hexmatiz** | Angular | [▶️ RUN](https://hexmatiz.firebaseapp.com/?72360) | Color and Hex codes preview |
 | <img src="https://github.com/Redwars22/Web2/blob/main/kelhot.png?raw=true" width="50px"> | **Kelhot** | Angular | [▶️ RUN](https://projectkelhot.stackblitz.io/) | Celsius to Kelvin / Kelvin to Celsius converter |
