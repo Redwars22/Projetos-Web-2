@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Kanban</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="src/logic.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+        * {
+            font-family: 'Chakra Petch', sans-serif;
+            font-weight: 'bold';
+        }
+
+        body {
+            padding: 30px;
+            background-color: #5B0F00;
+        }
+
+        .app-logo {
+            width: 50px;
+            height: 50px;
+        }
+
+        .beta-badge {
+            color: red;
+            font-size: 18px;
+        }
+
+        header {
+            display: grid;
+            grid-template-columns: 58px 60px auto 10%;
+            align-items:center;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 25% 25% 25%;
+            grid-template-rows: 50px auto;
+            text-align: center;
+            color: white;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        textarea {
+            border-radius: 10px;
+            padding: 10px;
+            font-weight: 'bold';
+            font-size: 16px;
+            border: 5px solid #fff;
+        }
+
+        hr {
+            border: 0.5px solid rgb(255, 30, 0);
+            opacity: 0.3;
+        }
+
+        .title {
+            font-size: 19px;
+        }
+
+        .to-do {
+            background-color: orangered;
+            color: white;
+            border: 5px solid #db674f;
+        }
+
+        .doing {
+            background-color: lightseagreen;
+            color: white;
+            border: 5px solid #05d39f;
+        }
+
+        .done {
+            background-color: springgreen;
+            border: 5px solid #05d354;
+        }
+
+        .material-icons {
+            color: white;
+            font-size: 20px;
+            background-color:rgb(255, 30, 0);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .links {
+            color: rgb(192, 187, 187);
+            margin: 5px 5px;
+            font-weight: '400';
+        }
+
+        .links:hover {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img class="app-logo" src="src/kanban.png"/>
+        <h1 class="beta-badge">BETA</h1>
+        <nav>
+            <a class="links">Mais Projetos</a>
+            <a class="links">O Autor</a>
+            <a class="links">Feedback</a>
+            <a class="links">Ajuda</a>
+            <a class="links">Sobre</a>
+        </nav>
+        <div class="buttons-container">
+            <a class="button">
+                <i class="material-icons">save</i>
+            </a>
+            <a class="button">
+                <i class="material-icons">folder</i>
+            </a>
+            <a class="button">
+                <i class="material-icons">delete_forever</i>
+            </a>
+        </div>
+    </header>
+    <hr/>
+
+    <main>
+        <h1 class="title">TO-DO</h1>
+        <h1 class="title">DOING</h1>
+        <h1 class="title">DONE</h1>
+        <textarea class="to-do" rows="12"></textarea>
+        <textarea class="doing" rows="12"></textarea>
+        <textarea class="done" rows="12"></textarea>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
