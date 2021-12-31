@@ -8,101 +8,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
     <script src="src/logic.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
-
-        * {
-            font-family: 'Chakra Petch', sans-serif;
-            font-weight: 'bold';
-        }
-
-        body {
-            padding: 30px;
-            background-color: #5B0F00;
-        }
-
-        .app-logo {
-            width: 50px;
-            height: 50px;
-        }
-
-        .beta-badge {
-            color: red;
-            font-size: 18px;
-        }
-
-        header {
-            display: grid;
-            grid-template-columns: 58px 60px auto 10%;
-            align-items:center;
-        }
-
-        main {
-            display: grid;
-            grid-template-columns: 25% 25% 25%;
-            grid-template-rows: 50px auto;
-            text-align: center;
-            color: white;
-            gap: 10px;
-            justify-content: center;
-        }
-
-        hr {
-            border: 0.5px solid rgb(255, 30, 0);
-            opacity: 0.3;
-        }
-
-        .title {
-            font-size: 19px;
-        }
-
-        .textbox {
-            min-width: auto;
-            min-height: 300px;
-            border-radius: 10px;
-            padding: 10px;
-            font-weight: 'bold';
-            font-size: 18px;
-            border: 5px solid #fff;
-            text-align: left;
-        }
-
-        .to-do {
-            background-color: orangered;
-            color: rgb(255, 221, 189);
-            border: 5px solid #db674f;
-        }
-
-        .doing {
-            background-color: lightseagreen;
-            color: rgb(44, 63, 128);
-            border: 5px solid #05d39f;
-        }
-
-        .done {
-            background-color: springgreen;
-            border: 5px solid #05d354;
-            color: rgb(13, 165, 13);
-        }
-
-        .material-icons {
-            color: white;
-            font-size: 20px;
-            background-color:rgb(255, 30, 0);
-            padding: 5px;
-            border-radius: 5px;
-        }
-
-        .links {
-            color: rgb(192, 187, 187);
-            margin: 5px 5px;
-            font-weight: '400';
-        }
-
-        .links:hover {
-            color: white;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="src/theme.css">
+    <link rel="stylesheet" href="src/layout.css">
 </head>
 
 <body>
@@ -110,11 +18,11 @@
         <img class="app-logo" src="src/kanban.png"/>
         <h1 class="beta-badge">BETA</h1>
         <nav>
-            <a class="links">Mais Projetos</a>
-            <a class="links">O Autor</a>
-            <a class="links">Feedback</a>
-            <a class="links">Ajuda</a>
-            <a class="links">Sobre</a>
+            <a class="links" href="https://github.com/Redwars22">Mais Projetos</a>
+            <a class="links" href="https://redwars22.github.io/Website/index.html">O Autor</a>
+            <a class="links" href="mailto:andrewpereira.megabyte@gmail.com">Feedback</a>
+            <a class="links" href="pages/help.html">Ajuda</a>
+            <a class="links" href="pages/about.html">Sobre</a>
         </nav>
         <div class="buttons-container">
             <a class="button" onclick="saveData()">
@@ -126,7 +34,12 @@
         </div>
     </header>
     <hr/>
-
+    <div class="alert">
+        <i class="material-icons warning">warning</i>
+        <p>
+            NÃO SE ESQUEÇA DE SALVAR PERIODICAMENTE AS ALTERAÇÕES FEITAS PARA NÃO PERDÊ-LAS!!!
+        </p>
+    </div>
     <main>
         <h1 class="title">TO-DO</h1>
         <h1 class="title">DOING</h1>
