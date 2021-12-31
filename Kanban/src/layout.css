@@ -3,6 +3,7 @@
 body {
     padding: 30px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .app-logo {
@@ -46,8 +47,7 @@ main {
     justify-content: end;
     align-items: center;
     margin-left: 40%;
-    padding: 3px;
-    padding-right: 6px;
+    padding: 1px;
     border-radius: 10px;
 }
 

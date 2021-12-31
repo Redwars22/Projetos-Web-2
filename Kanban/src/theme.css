@@ -83,3 +83,22 @@ hr {
     font-size: 30px;
     background-color: red;
 }
+
+footer {
+    color: white;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.big-button {
+    background-color: #05d39f;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    height: 25px;
+    width: 120px;
+    text-align: center;
+}
