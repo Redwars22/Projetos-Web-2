@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Kanban</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
     <script src="src/logic.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
@@ -46,14 +47,6 @@
             justify-content: center;
         }
 
-        textarea {
-            border-radius: 10px;
-            padding: 10px;
-            font-weight: 'bold';
-            font-size: 16px;
-            border: 5px solid #fff;
-        }
-
         hr {
             border: 0.5px solid rgb(255, 30, 0);
             opacity: 0.3;
@@ -63,21 +56,33 @@
             font-size: 19px;
         }
 
+        .textbox {
+            min-width: auto;
+            min-height: 300px;
+            border-radius: 10px;
+            padding: 10px;
+            font-weight: 'bold';
+            font-size: 18px;
+            border: 5px solid #fff;
+            text-align: left;
+        }
+
         .to-do {
             background-color: orangered;
-            color: white;
+            color: rgb(255, 221, 189);
             border: 5px solid #db674f;
         }
 
         .doing {
             background-color: lightseagreen;
-            color: white;
+            color: rgb(44, 63, 128);
             border: 5px solid #05d39f;
         }
 
         .done {
             background-color: springgreen;
             border: 5px solid #05d354;
+            color: rgb(13, 165, 13);
         }
 
         .material-icons {
@@ -112,13 +117,10 @@
             <a class="links">Sobre</a>
         </nav>
         <div class="buttons-container">
-            <a class="button">
+            <a class="button" onclick="saveData()">
                 <i class="material-icons">save</i>
             </a>
-            <a class="button">
-                <i class="material-icons">folder</i>
-            </a>
-            <a class="button">
+            <a class="button" onclick="resetData()">
                 <i class="material-icons">delete_forever</i>
             </a>
         </div>
@@ -129,9 +131,9 @@
         <h1 class="title">TO-DO</h1>
         <h1 class="title">DOING</h1>
         <h1 class="title">DONE</h1>
-        <textarea class="to-do" rows="12"></textarea>
-        <textarea class="doing" rows="12"></textarea>
-        <textarea class="done" rows="12"></textarea>
+        <div class="textbox to-do" id="todo" contenteditable="true"></div>
+        <div class="textbox doing" id="doing" contenteditable="true"></div>
+        <div class="textbox done" id="done" contenteditable="true"></div>
     </main>
 
     <footer></footer>
