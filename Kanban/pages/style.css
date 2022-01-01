@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+body {
+    background-color: #5B0F00;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin: 100px;
+}
