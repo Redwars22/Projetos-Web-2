@@ -2,8 +2,8 @@
 
 body {
     padding: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 4px;
+    padding-bottom: 0px;
 }
 
 .app-logo {
@@ -42,11 +42,11 @@ main {
 
 .alert {
     display: grid;
-    grid-template-columns: 40px auto;
+    grid-template-columns: 36px 420px;
     gap: 5px;
     justify-content: end;
     align-items: center;
-    margin-left: 40%;
+    margin-left: 60%;
     padding: 1px;
     border-radius: 10px;
 }

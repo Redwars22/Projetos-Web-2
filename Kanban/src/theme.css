@@ -76,7 +76,7 @@ hr {
 .alert {
     gap: 5px;
     color: black;
-    background-color: yellow;
+    background-color: rgb(228, 205, 3);
 }
 
 .warning {
