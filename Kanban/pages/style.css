@@ -5,5 +5,13 @@ body {
     color: white;
     font-family: 'Dosis', sans-serif;
     text-align: center;
-    margin: 100px;
+    margin: 70px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+ol {
+    text-align: left;
 }
