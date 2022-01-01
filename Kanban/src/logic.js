@@ -32,4 +32,5 @@ function resetData(){
 
 window.onload = function(){
     loadData();
+    window.alert("ESSA É UMA VERSÃO BETA E, PORTANTO, PODE NÃO FUNCIONAR COMO ESPERADO. NÃO USE ESTE APP PARA GUARDAR INFORMAÇÕES IMPORTANTES ATÉ QUE ESTEJA ESTÁVEL!!!");
 }
