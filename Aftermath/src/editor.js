@@ -3,8 +3,3 @@ function preview(){
     let preview = document.getElementById('preview-area');
     preview.innerHTML = "<div>" + code +"</div>";
 }
-
-/*function identCode(){
-    let code = document.getElementById('code-area');
-    code.innerText += '    ';
-}*/

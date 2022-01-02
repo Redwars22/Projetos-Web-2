@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CARREGANDO - Project Aftermath</title>
+    <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+        * {
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        body {
+            display: grid;
+            place-items: center;
+            background-image: url('https://www.pixel4k.com/wp-content/uploads/2020/12/green-formation-abstract-4k_1608578331-1536x864.jpg');
+        }
+
+        .splash {
+            background-color: rgb(23, 206, 78);
+            color: white;
+            padding: 20px;
+            width: 550px;
+            border-radius: 10px;
+            margin-top: 12%;
+            box-shadow: 5px 5px 15px 5px rgba(23,181,93,0.94);
+        }
+
+        .splash-top {
+            margin-bottom: 100px;
+        }
+
+        .splash-bottom {
+            display: grid;
+            grid-template-columns: 60px auto 40px;
+            align-items: center;
+        }
+    </style>
+    <script>
+        setTimeout(function() {
+            window.location = "index.html";
+        }, 2000);
+    </script>
 </head>
+
 <body>
-    
+    <div class="splash">
+        <div class="splash-top">
+            <h1>Bem-vindo ao Aftermath</h1>
+        </div>
+
+        <div class="splash-bottom">
+            <img src="https://redwars22.github.io/Website/img/aftermath.png" width="55px"/>
+            <h2>Aftermath (BETA)</h2>
+            <fluent-progress-ring></fluent-progress-ring>
+        </div>
+    </div>
+
 </body>
 </html>
