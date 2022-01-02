@@ -1,0 +1,50 @@
+button {
+    border: none;
+}
+
+button:active {
+    border-bottom: 3px solid #147944;
+}
+
+header {
+    display: grid;
+}
+
+.header-bottom {
+    display: grid;
+    grid-template-columns: 88% 12%;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.card {
+    --card-width: 50%;
+    --card-height: 495px;
+    padding: 3px;
+}
+
+.preview-area {
+    padding: none;
+}
+
+main {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.header-top {
+    display: grid;
+    grid-template-columns: 40px 210px auto 110px 240px;
+    align-items: center;
+}
+
+.author {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.profile-picture {
+    border-radius: 100%;
+    margin-left: 10px;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #edf1f4;
+}
+
+button:active {
+    font-weight: bold;
+}
+
+.code-area {
+    font-family: 'Fira Code', monospace;
+    color: #275aad;
+    overflow: auto;
+    font-weight: bold;
+}
+
+.preview-area {
+    padding: none;
+}
+
+.author {
+    text-align: right;
+}
+
+.text-btn {
+    font-size: 15px;
+}
+
+.author-name {
+    font-size: 13px;
+}
+
+.app-title {
+    font-size: 13px;
+}

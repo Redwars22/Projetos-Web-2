@@ -7,97 +7,17 @@
     <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
     <title>Aftermath</title>
     <script src="src/editor.js"></script>
+    <script src="src/script.js"></script>
     <script src="src/fileHandling.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-
-        body {
-            font-family: 'Noto Sans', sans-serif;
-        }
-
-        body {
-            background-color: #edf1f4;
-        }
-
-        button {
-            border: none;
-        }
-
-        button:active {
-            border-bottom: 3px solid #147944;
-            font-weight: bold;
-        }
-
-        header {
-            display: grid;
-        }
-
-        .header-bottom {
-            display: grid;
-            grid-template-columns: 88% 12%;
-            align-items: center;
-            margin-bottom: 5px;
-        }
-
-        .card {
-            --card-width: 50%;
-            --card-height: 470px;
-            padding: 5px;
-        }
-
-        .code-area {
-            font-family: 'Fira Code', monospace;
-            color: #275aad;
-            overflow: auto;
-            font-weight: bold;
-        }
-
-        .preview-area {
-            padding: none;
-        }
-
-        main {
-            display: flex;
-            gap: 15px;
-            margin-top: 10px;
-        }
-
-        .header-top {
-            display: grid;
-            grid-template-columns: 40px 210px auto 110px 240px;
-            align-items: center;
-        }
-
-        .author {
-            display: grid;
-            grid-template-columns: auto auto;
-            text-align: right;
-        }
-
-        .profile-picture {
-            border-radius: 100%;
-            margin-left: 10px;
-        }
-
-        .text-btn {
-            font-size: 15px;
-        }
-
-        .author-name {
-            font-size: 13px;
-        }
-
-        .app-title {
-            font-size: 13px;
-        }
-    </style>
+    <link rel="stylesheet" href="src/layout.css">
+    <link rel="stylesheet" href="src/theme.css">
+    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
         <div class="header-top">
             <img src="https://redwars22.github.io/Website/img/aftermath.png"/ width="35px">
-            <span class="app-title"><strong>Aftermath (BETA)</strong></span>
+            <span class="app-title"><strong>Aftermath (ALPHA)</strong></span>
             <fluent-text-field placeholder="Pesquisar documentação HTML, JS, CSS"></fluent-text-field>
             <fluent-button>Pesquisar</fluent-button>
             <div class="author">
