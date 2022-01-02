@@ -1,19 +1,19 @@
-<a href="https://projectdekount.redwars22.repl.co/discount.php">
-  <img src="src/dekount.png" width="70px"/>
+<a href="https://redwars22.github.io/Web2/Kanban/">
+  <img src="https://redwars22.github.io/Web2/Kanban/src/kanban.png" width="70px"/>
 </a>
 
 ## 🇧🇷 PORTUGUÊS(BRASIL) 
 
-* **ℹ️ DESCRIÇÃO**: 
-* **🧰 FERRAMENTAS USADAS PARA DESENVOLVÊ-LO**: VisualStudio Code, Replit, Ubuntu 21.04, PHP 8.0, Material Icons
+* **ℹ️ DESCRIÇÃO**: O Project Kanban é um aplicativo web to-do estilo Kanban. Ele contém três campos: TO-DO, DOING e DONE. TO-DO serve para tarefas ainda não iniciadas, DOING para tarefas em execução e DONE para tarefas já concluídas. [Mais informações aqui! (somente em português)](https://redwars22.github.io/Web2/Kanban/pages/help.html)
+* **🧰 FERRAMENTAS USADAS PARA DESENVOLVÊ-LO**: VisualStudio Code, Ubuntu 21.04, HTML, JavaScript, Material Icons. TESTADO NOS NAVEGADORES BRAVE E OPERA, MAS PODE SER QUE FUNCIONE NOUTROS NAVEGADORES BASEADOS NO CHROMIUM TAMBÉM!
 
-[💻 EXECUTAR(BETA)]()
+[💻 EXECUTAR(BETA)](https://redwars22.github.io/Web2/Kanban/)
 
 <hr/>
 
 ## 🇺🇸 ENGLISH(USA)
 
 * **ℹ️ DESCRIPTION**: 
-* **🧰 TOOLS I USED TO DEVELOP IT**: VisualStudio Code, Replit, Ubuntu 21.04, PHP 8.0, Material Icons
+* **🧰 TOOLS I USED TO DEVELOP IT**: VisualStudio Code, Ubuntu 21.04, HTML, JavaScript, Material Icons. TESTED ON BRAVE AND OPERA BROWSERS, BUT IT MIGHT WORK ON OTHER CHROMIUM-BASED BROWSERS TOO!
 
-[💻 RUN(BETA)]()
+[💻 RUN(BETA)](https://redwars22.github.io/Web2/Kanban/)
