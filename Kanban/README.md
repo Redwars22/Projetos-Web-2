@@ -2,6 +2,8 @@
   <img src="https://redwars22.github.io/Web2/Kanban/src/kanban.png" width="70px"/>
 </a>
 
+<img src="https://user-images.githubusercontent.com/26885598/147885554-eefe3d11-2c92-4b68-ba59-e56f6466df1b.png" width="720px"/>
+
 ## 🇧🇷 PORTUGUÊS(BRASIL) 
 
 * **ℹ️ DESCRIÇÃO**: O Project Kanban é um aplicativo web to-do estilo Kanban. Ele contém três campos: TO-DO, DOING e DONE. TO-DO serve para tarefas ainda não iniciadas, DOING para tarefas em execução e DONE para tarefas já concluídas. [Mais informações aqui! (somente em português)](https://redwars22.github.io/Web2/Kanban/pages/help.html)
