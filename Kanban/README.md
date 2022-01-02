@@ -15,7 +15,7 @@
 
 ## 🇺🇸 ENGLISH(USA)
 
-* **ℹ️ DESCRIPTION**: 
+* **ℹ️ DESCRIPTION**: ProjectKanban is a Kanban-like to-do web app. It has three fields: TO-DO, DOING, and DONE. You can put tasks you didn't start yet in the TO-DO field, tasks you're already doing in the DOING field and already completed tasks in the DONE field. [More information here! (available only in Portuguese)](https://redwars22.github.io/Web2/Kanban/pages/help.html)
 * **🧰 TOOLS I USED TO DEVELOP IT**: VisualStudio Code, Ubuntu 21.04, HTML, JavaScript, Material Icons. TESTED ON BRAVE AND OPERA BROWSERS, BUT IT MIGHT WORK ON OTHER CHROMIUM-BASED BROWSERS TOO!
 
 [💻 RUN(BETA)](https://redwars22.github.io/Web2/Kanban/)
