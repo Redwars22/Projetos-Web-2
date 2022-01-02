@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
+    <title>Aftermath</title>
+    <script src="src/editor.js"></script>
+    <script src="src/fileHandling.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+        body {
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        body {
+            background-color: #edf1f4;
+        }
+
+        button {
+            border: none;
+        }
+
+        button:active {
+            border-bottom: 3px solid #147944;
+            font-weight: bold;
+        }
+
+        header {
+            display: grid;
+        }
+
+        .header-bottom {
+            display: grid;
+            grid-template-columns: 88% 12%;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .card {
+            --card-width: 50%;
+            --card-height: 470px;
+            padding: 5px;
+        }
+
+        .code-area {
+            font-family: 'Fira Code', monospace;
+            color: #275aad;
+            overflow: auto;
+        }
+
+        .preview-area {
+            padding: none;
+        }
+
+        main {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .header-top {
+            display: grid;
+            grid-template-columns: 40px 210px auto 110px 240px;
+            align-items: center;
+        }
+
+        .author {
+            display: grid;
+            grid-template-columns: auto auto;
+            text-align: right;
+        }
+
+        .profile-picture {
+            border-radius: 100%;
+            margin-left: 10px;
+        }
+
+        .text-btn {
+            font-size: 15px;
+        }
+
+        .author-name {
+            font-size: 13px;
+        }
+
+        .app-title {
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <img src="https://redwars22.github.io/Website/img/aftermath.png"/ width="35px">
+            <span class="app-title"><strong>Aftermath (BETA)</strong></span>
+            <fluent-text-field placeholder="Pesquisar documentação HTML, JS, CSS"></fluent-text-field>
+            <fluent-button>Pesquisar</fluent-button>
+            <div class="author">
+                <p class="author-name">Criado por André Pereira</p>
+                <img src="https://github.com/Redwars22.png" width="35px" class="profile-picture"/>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="main-menu">
+                <button class="text-btn" onclick="newFile()">Novo</button>
+                <button class="text-btn" onclick="openFile()">Abrir</button>
+                <button class="text-btn" onclick="saveFile()">Salvar</button>
+                <!--<button class="text-btn" onclick="identCode()">Identação</button>-->
+                <button class="text-btn">Sobre</button>
+                <button class="text-btn">Ajuda</button>
+            </div>
+            <div class="right-menu">
+                <fluent-button>Feedback</fluent-button>
+                <fluent-button appearance="accent"  onclick="preview()">Prévia</fluent-button>
+            </div>
+        </div> 
+    </header>
+    <fluent-divider></fluent-divider>
+    <main>
+        <fluent-card class="card code-area">
+            <p contenteditable="true" id="code-area">
+                Escreva o seu código HTML aqui e clique no botão prévia para ver o resultado.
+            </p>
+        </fluent-card>
+        <fluent-card class="card preview-area">
+            <div id="preview-area"></div>
+        </fluent-card>
+    </main>
+</body>
+</html>
