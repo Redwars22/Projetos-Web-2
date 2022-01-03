@@ -14,7 +14,7 @@
 
 | 🔴 Icon | 🗂 Project | 🖥️ Technology | ▶ Run | 📚 Category |
 |--- |--- |--- |--- |--- |
-| <img src="https://raw.githubusercontent.com/Redwars22/Web2/main/Aftermath/src/aftermath.png" width="50px"/> | **Aftermath** || [▶️ RUN](https://redwars22.github.io/Web2/Aftermath/splash.html) | HTML/CSS Editor |
+| <img src="https://raw.githubusercontent.com/Redwars22/Web2/main/Aftermath/src/aftermath.png" width="50px"/> | **Aftermath(ALPHA)** || [▶️ RUN](https://redwars22.github.io/Web2/Aftermath/splash.html) | HTML/CSS Editor |
 | <img src="" width="50px"> | **Armadillo** | NULL | NULL | Game store |
 | <img src="https://raw.githubusercontent.com/Redwars22/Web2/main/D%C3%A9kount/src/dekount.png" width="50px"> | **Dékount** | PHP/HTML | [▶️ RUN](https://projectdekount.redwars22.repl.co) | Discount calculator |
 || **Emerald** ||||
