@@ -1,0 +1,36 @@
+.root {
+  --size: 206px;
+  --border-radius: 5px;
+}
+
+.bigCard {
+  border-radius: 5px;
+  min-width: var(--size);
+  min-height: var(--size);
+  border: 5px solid rgba(221, 15, 59, 0);
+}
+
+.bigCard:hover {
+  border: 5px solid rgb(221, 15, 59);
+  box-shadow: 0px -1px 23px 6px rgba(255, 0, 51, 0.79);
+}
+
+.bigGameLogo {
+  min-width: var(--size);
+  min-height: var(--size);
+  border-radius: 5px;
+  filter: saturate(0%);
+}
+
+.bigGameLogo:hover {
+  filter: saturate(100%);
+}
+
+.titleElement {
+  font-size: 15px;
+  min-width: var(--size);
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  margin-top: -30px;
+  padding-left: 10px;
+}

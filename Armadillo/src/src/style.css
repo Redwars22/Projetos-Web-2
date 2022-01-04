@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
+
+body {
+  background-image: url('https://wallpapertag.com/wallpaper/middle/0/a/3/509303-cool-hd-red-wallpaper-2880x1800-windows.jpg');
+  background-size: cover;
+  font-family: 'Spline Sans', sans-serif;
+  color: white;
+  margin: 35px;
+  filter: saturate(200%);
+}

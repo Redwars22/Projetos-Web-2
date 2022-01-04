@@ -1,0 +1,19 @@
+.smallCard {
+  border-radius: 5px;
+  max-width: 136px;
+  max-height: 136px;
+  border: 5px solid rgba(221, 15, 59, 0);
+  filter: saturate(0%);
+}
+
+.smallCard:hover {
+  border: 5px solid rgb(221, 15, 59);
+  filter: saturate(100%);
+  box-shadow: 0px -1px 23px 6px rgba(255, 0, 51, 0.79);
+}
+
+.gameLogo {
+  width: 136px;
+  height: 136px;
+  border-radius: 5px;
+}

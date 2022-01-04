@@ -1,0 +1,14 @@
+.appTitle {
+  font-size: 20px;
+}
+
+.appLogo {
+  width: 40px;
+}
+
+.titleContainer {
+  display: grid;
+  width: 150px;
+  grid-template-columns: auto 55px;
+  align-items: center;
+}

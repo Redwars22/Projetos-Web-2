@@ -1,0 +1,29 @@
+.root {
+  --wide-width: 206px;
+  --wide-height: 136px;
+}
+
+.wideCard {
+  border-radius: 5px;
+  min-width: var(--wide-width);
+  min-height: var(--wide-height);
+  border: 5px solid rgba(221, 15, 59, 0);
+  filter: saturate(0%);
+}
+
+.wideCard:hover {
+  border: 5px solid rgb(221, 15, 59);
+  filter: saturate(100%);
+  box-shadow: 0px -1px 23px 6px rgba(255, 0, 51, 0.79);
+}
+
+.wideGameLogo {
+  border-radius: 5px;
+}
+
+.wideTitleElement {
+  margin-top: -33px;
+  font-size: 15px;
+  padding-left: 10px;
+  text-shadow: 0px 0px 12px rgba(232, 0, 0, 0.88);
+}
