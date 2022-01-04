@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap");
+
+* {
+  font-family: "Nova Mono", monospace;
+  color: rgb(201, 247, 240);
+}
+
+.centered {
+  display: grid;
+  place-items: center;
+}
+
+body {
+  background-image: url("https://www.pixel4k.com/wp-content/uploads/2020/12/green-formation-abstract-4k_1608578331-1536x864.jpg");
+  /*border: 10px solid rgb(23, 206, 78);
+  border-radius: 20px;
+  padding: 20px;*/
+}
+
+header {
+  display: grid;
+  grid-template-columns: 150px auto 15%;
+  align-items: center;
+}
+
+article {
+  border-bottom: 1px dotted black;
+  margin-bottom: 15px;
+}
+
+main {
+  margin-top: 40px;
+  max-height: 400px;
+  max-width: 60%;
+  overflow: auto;
+  border: 5px solid rgb(65, 192, 65);
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(23, 206, 78, 0.7);
+  box-shadow: 5px 5px 15px 5px rgba(23, 181, 93, 0.94);
+}
+
+.upper-part {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 30px auto;
+}
+
+.button {
+  color: black;
+  background-color: rgb(23, 206, 78);
+  box-shadow: 5px 5px 15px 5px rgba(23, 181, 93, 0.94);
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(56, 131, 78);
+  box-shadow: 5px 5px 15px 5px rgba(66, 128, 94, 0.94);
+}
+
+footer {
+  text-align: center;
+}

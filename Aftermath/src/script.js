@@ -4,7 +4,13 @@ function aboutPanel() {
   );
 }
 
-function helpPage() {}
+function helpPage() {
+  let choice = confirm(
+    "Você será redirecionado para a página de ajuda do ProjectAftermath. Quaisquer alterações não salvas serão perdidas. Deseja prosseguir?"
+  );
+  if(choice)
+    window.location = "pages/help.html";
+}
 
 function sendFeedback() {}
 
