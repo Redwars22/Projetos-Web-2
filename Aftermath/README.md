@@ -2,7 +2,7 @@
   <img src="https://redwars22.github.io/Website/img/aftermath.png" width="75px"/>
 </a>
 
-<img src="" width="720px"/>
+<img src="https://raw.githubusercontent.com/Redwars22/Web2/main/Aftermath/aftermath.png" width="750px"/>
 
 ## 🇧🇷 PORTUGUÊS(BRASIL)
 ### ℹ️ DESCRIÇÃO
