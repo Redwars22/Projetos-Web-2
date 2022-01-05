@@ -41,3 +41,5 @@ I created ProjectAftermath to help me (and possibly other people too) to create 
 - GitHub
 - Opera and Brave Browsers
 - HTML and CSS
+
+***CLICK ON THE ICON ON THE TOP OF THIS PAGE TO RUN THE APP IN YOUR BROWSER***
