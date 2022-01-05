@@ -2,7 +2,7 @@
     <img src="https://raw.githubusercontent.com/Redwars22/Web2/main/Armadillo/armadillo.png" width="75px"/>
 </a>
 
-<img src=""/>
+<img src="https://raw.githubusercontent.com/Redwars22/Web2/main/Armadillo/assets/armadillo.png" width="700px"/>
 
 ## 🇧🇷 PORTUGUÊS(BRASIL)
 ### ℹ️ DESCRIÇÃO
