@@ -1,4 +1,4 @@
-<a href="https://redwars22.github.io/Web2/Aftermath/index.html">
+<a href="https://redwars22.github.io/Web2/Aftermath/splash.html">
   <img src="https://redwars22.github.io/Website/img/aftermath.png" width="75px"/>
 </a>
 
