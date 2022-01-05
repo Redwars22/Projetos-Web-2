@@ -1,55 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/@fluentui/web-components"
+    ></script>
     <title>Aftermath</title>
     <script src="src/editor.js"></script>
     <script src="src/script.js"></script>
     <script src="src/fileHandling.js"></script>
-    <link rel="stylesheet" href="src/layout.css">
-    <link rel="stylesheet" href="src/theme.css">
-    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
-</head>
-<body>
+    <link rel="stylesheet" href="src/layout.css" />
+    <link rel="stylesheet" href="src/theme.css" />
+    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
     <header>
-        <div class="header-top">
-            <img src="https://redwars22.github.io/Website/img/aftermath.png"/ width="35px">
-            <span class="app-title"><strong>Aftermath (ALPHA)</strong></span>
-            <fluent-text-field placeholder="Pesquisar documentação HTML, JS, CSS"></fluent-text-field>
-            <fluent-button>Pesquisar</fluent-button>
-            <div class="author">
-                <p class="author-name">Criado por André Pereira</p>
-                <img src="https://github.com/Redwars22.png" width="35px" class="profile-picture"/>
-            </div>
+      <div class="header-top">
+        <img src="https://redwars22.github.io/Website/img/aftermath.png"/
+        width="35px">
+        <span class="app-title"><strong>Aftermath (BETA)</strong></span>
+        <fluent-text-field
+          placeholder="Pesquisar documentação HTML, JS, CSS"
+          id="query"
+        ></fluent-text-field>
+        <fluent-button onclick="searchDocumentation()">Pesquisar</fluent-button>
+        <div class="author">
+          <p class="author-name">Criado por André Pereira</p>
+          <a href="https://redwars22.github.io/Website/index.html">
+            <img
+              src="https://github.com/Redwars22.png"
+              width="35px"
+              class="profile-picture"
+            />
+          </a>
         </div>
-        <div class="header-bottom">
-            <div class="main-menu">
-                <button class="text-btn" onclick="newFile()">Novo</button>
-                <button class="text-btn" onclick="openFile()">Abrir</button>
-                <button class="text-btn" onclick="saveFile()">Salvar</button>
-                <!--<button class="text-btn" onclick="identCode()">Identação</button>-->
-                <button class="text-btn" onclick="aboutPanel()">Sobre</button>
-                <button class="text-btn" onclick="helpPage()">Ajuda</button>
-            </div>
-            <div class="right-menu">
-                <fluent-button>Feedback</fluent-button>
-                <fluent-button appearance="accent"  onclick="preview()">Prévia</fluent-button>
-            </div>
-        </div> 
+      </div>
+      <div class="header-bottom">
+        <div class="main-menu">
+          <button class="text-btn" onclick="newFile()">Novo</button>
+          <button class="text-btn" onclick="openFile()">Abrir</button>
+          <button class="text-btn" onclick="saveFile()">Salvar</button>
+          <!--<button class="text-btn" onclick="identCode()">Identação</button>-->
+          <button class="text-btn" onclick="aboutPanel()">Sobre</button>
+          <button class="text-btn" onclick="helpPage()">Ajuda</button>
+        </div>
+        <div class="right-menu">
+          <fluent-button onclick="sendFeedback()">Feedback</fluent-button>
+          <fluent-button appearance="accent" onclick="preview()"
+            >Prévia</fluent-button
+          >
+        </div>
+      </div>
     </header>
     <fluent-divider></fluent-divider>
     <main>
-        <fluent-card class="card code-area">
-            <p contenteditable="true" id="code-area">
-                Escreva o seu código HTML aqui e clique no botão prévia para ver o resultado.
-            </p>
-        </fluent-card>
-        <fluent-card class="card preview-area">
-            <div id="preview-area"></div>
-        </fluent-card>
+      <fluent-card class="card code-area">
+        <p contenteditable="true" id="code-area">
+          Escreva o seu código HTML aqui e clique no botão prévia para ver o
+          resultado.
+        </p>
+      </fluent-card>
+      <fluent-card class="card preview-area">
+        <div id="preview-area"></div>
+      </fluent-card>
     </main>
-</body>
+  </body>
 </html>
