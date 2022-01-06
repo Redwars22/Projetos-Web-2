@@ -17,14 +17,16 @@
       referrerpolicy="no-referrer"
     />
     <style>
-      .toolbar {
+      .toolbar-container {
         display: grid;
         place-items: center;
       }
 
       .texteditor {
         margin: 20px 10% 20px 10%;
-        background-color: rgb(212, 212, 211);
+        background-color: rgb(231, 231, 228);
+        padding: 15px;
+        min-height: auto;
       }
     </style>
   </head>
@@ -33,28 +35,30 @@
         <h1>Text</h1>
       </header>
 
-      <div class="toolbar">
-        <div class="ui icon buttons">
-          <button class="ui button"><i class="save icon"></i></button>
-          <button class="ui button"><i class="folder open icon"></i></button>
-          <button class="ui button"><i class="trash icon"></i></button>
-        </div>
-        <div class="ui icon buttons">
-          <button class="ui button"><i class="bold icon"></i></button>
-          <button class="ui button"><i class="italic icon"></i></button>
-          <button class="ui button"><i class="heading icon"></i></button>
-          <button class="ui button"><i class="list icon"></i></button>
-          <button class="ui button"><i class="paragraph icon"></i></button>
-        </div>
-        <div class="ui icon buttons">
-          <button class="ui button"><i class="linkify icon"></i></button>
-          <button class="ui button"><i class="code icon"></i></button>
-          <button class="ui button"><i class="image icon"></i></button>
-          <button class="ui button"><i class="table icon"></i></button>
-        </div>
-        <div class="ui icon buttons">
-          <button class="ui button"><i class="question icon"></i></button>
-          <button class="ui button"><i class="info icon"></i></button>
+      <div class="toolbar-container">
+        <div class="toolbar">
+          <div class="ui icon buttons">
+            <button class="ui button"><i class="save icon"></i></button>
+            <button class="ui button"><i class="folder open icon"></i></button>
+            <button class="ui button"><i class="trash icon"></i></button>
+          </div>
+          <div class="ui icon buttons">
+            <button class="ui button"><i class="bold icon"></i></button>
+            <button class="ui button"><i class="italic icon"></i></button>
+            <button class="ui button"><i class="heading icon"></i></button>
+            <button class="ui button"><i class="list icon"></i></button>
+            <button class="ui button"><i class="paragraph icon"></i></button>
+          </div>
+          <div class="ui icon buttons">
+            <button class="ui button"><i class="linkify icon"></i></button>
+            <button class="ui button"><i class="code icon"></i></button>
+            <button class="ui button"><i class="image icon"></i></button>
+            <button class="ui button"><i class="table icon"></i></button>
+          </div>
+          <div class="ui icon buttons">
+            <button class="ui button"><i class="question icon"></i></button>
+            <button class="ui button"><i class="info icon"></i></button>
+          </div>
         </div>
       </div>
 
