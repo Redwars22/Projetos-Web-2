@@ -7,13 +7,13 @@ function italic(){
 }
 
 function heading(){
-    document.getElementById('texteditor').innerText += "# Título";
+    document.getElementById('texteditor').innerText += "\n# Título";
 }
 
 function list(){
-    document.getElementById('texteditor').innerText += "- elemento 1\n- elemento 2\nelemento 3";
+    document.getElementById('texteditor').innerText += "\n- elemento 1\n- elemento 2\nelemento 3";
 }
 
 function paragraph(){
-    document.getElementById('texteditor').innerText += "<p>parágrafo</p>";
+    document.getElementById('texteditor').innerText += "\n<p>parágrafo</p>";
 }
