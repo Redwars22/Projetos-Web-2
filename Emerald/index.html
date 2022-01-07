@@ -31,9 +31,10 @@
         margin: 20px 10% 20px 10%;
         background-color: rgb(231, 231, 228);
         padding: 15px;
-        min-height: 70%;
+        height: 75%;
         border-radius: 10px;
         border: 5px solid grey;
+        overflow: auto;
       }
 
       header {
@@ -105,7 +106,7 @@
           <button class="ui button"><i class="save icon"></i></button>
           <button class="ui button"><i class="folder open icon"></i></button>
           <button class="ui button"><i class="trash icon"></i></button>
-          <button class="ui button"><i class="lock icon"></i></button>
+          <button class="ui button" onclick="lock()"><i class="lock icon"></i></button>
         </div>
 
         <div class="ui icon buttons">
@@ -127,15 +128,15 @@
         </div>
 
         <div class="ui icon buttons">
-          <button class="ui button"><i class="linkify icon"></i></button>
-          <button class="ui button"><i class="code icon"></i></button>
-          <button class="ui button"><i class="image icon"></i></button>
-          <button class="ui button"><i class="table icon"></i></button>
+          <button class="ui button" onclick="link()"><i class="linkify icon"></i></button>
+          <button class="ui button" onclick="code()"><i class="code icon"></i></button>
+          <button class="ui button" onclick="image()"><i class="image icon"></i></button>
+          <button class="ui button" onclick="table()"><i class="table icon"></i></button>
         </div>
 
         <div class="ui icon buttons">
-          <button class="ui button"><i class="question icon"></i></button>
-          <button class="ui button"><i class="info icon"></i></button>
+          <button class="ui button" onclick="help()"><i class="question icon"></i></button>
+          <button class="ui button" onclick="about()"><i class="info icon"></i></button>
         </div>
       </div>
     </div>
