@@ -19,6 +19,8 @@
     <script src="src/editor.js"></script>
     <script src="src/script.js"></script>
     <script src="src/datahandling.js"></script>
+    <link rel="stylesheet" href="src/theme.css" />
+
     <style>
       .toolbar-container {
         display: grid;
@@ -30,50 +32,68 @@
         background-color: rgb(231, 231, 228);
         padding: 15px;
         min-height: 70%;
+        border-radius: 10px;
+        border: 5px solid grey;
       }
 
-      header{
-        display:flex;
-        justify-content: space-between;
-        align-items: baseline;
-      }
-
-      .logo {
+      header {
         display: grid;
-        grid-template-columns: 55px auto;
+        grid-template-columns: 55px 75% 20%;
         align-items: center;
+        margin-bottom: 20px;
       }
 
       body {
         padding: 20px;
         margin: 0px;
+        background-color: rgb(245, 245, 245);
       }
 
-      .author {
-        display: grid;
-        grid-template-columns: auto 60px;
+      .app-title {
+        font-size: 1rem;
+      }
+
+      .author-name {
+        margin-right: 10px;
+      }
+
+      .author-box {
+        background-color: rgb(148, 146, 146);
+        border: 2px solid grey;
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+        padding: 15px;
+        margin-left: auto;
+      }
+
+      .logo {
         align-items: center;
       }
 
-      .author-photo {
-        border-radius: 50%;
+      .app-title {
+        font-size: 16px;
+        font-weight: bold;
       }
     </style>
   </head>
+
   <body>
     <header>
       <div class="logo">
         <img
           src="https://redwars22.github.io/Website/img/emerald.png"
           width="50px"
+          class="ui-image"
         />
-        <h1>Emerald(ALPHA)</h1>
       </div>
-      <div class="author">
-        <p>Criado por André Pereira -></p>
+
+      <span class="app-title">Emerald(ALPHA)</span>
+
+      <div class="author-box">
+        <span class="author-name">Criado por André Pereira</span>
         <img
           src="https://github.com/Redwars22.png"
-          class="author-photo"
+          class="ui avatar image"
           width="50px"
         />
       </div>
@@ -87,6 +107,7 @@
           <button class="ui button"><i class="trash icon"></i></button>
           <button class="ui button"><i class="lock icon"></i></button>
         </div>
+
         <div class="ui icon buttons">
           <button class="ui button" onclick="bold()">
             <i class="bold icon"></i>
@@ -104,12 +125,14 @@
             <i class="paragraph icon"></i>
           </button>
         </div>
+
         <div class="ui icon buttons">
           <button class="ui button"><i class="linkify icon"></i></button>
           <button class="ui button"><i class="code icon"></i></button>
           <button class="ui button"><i class="image icon"></i></button>
           <button class="ui button"><i class="table icon"></i></button>
         </div>
+
         <div class="ui icon buttons">
           <button class="ui button"><i class="question icon"></i></button>
           <button class="ui button"><i class="info icon"></i></button>
@@ -122,4 +145,8 @@
       **Criado por André Pereira usando HTML, CSS, JS e Semantic UI**
     </div>
   </body>
+
+  <footer>
+    <span></span>
+  </footer>
 </html>
