@@ -16,6 +16,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="src/editor.js"></script>
+    <script src="src/script.js"></script>
+    <script src="src/datahandling.js"></script>
     <style>
       .toolbar-container {
         display: grid;
@@ -35,13 +38,20 @@
       }
 
       .logo {
-        display: flex;
-        flex-direction: row;
+        display: grid;
       }
 
       body {
         padding: 20px;
         margin: 0px;
+      }
+
+      /*.author {
+        display: grid;
+      }*/
+
+      .author-photo {
+        border-radius: 50%;
       }
     </style>
   </head>
@@ -52,7 +62,8 @@
           <h1>Emerald(ALPHA)</h1>
         </div>
         <div class="author">
-          <img src="https://github.com/Redwars22.png" width="50px"/>
+          <>
+          <img src="https://github.com/Redwars22.png" class="author-photo" width="50px"/>
         </div>
       </header>
 
@@ -62,13 +73,14 @@
             <button class="ui button"><i class="save icon"></i></button>
             <button class="ui button"><i class="folder open icon"></i></button>
             <button class="ui button"><i class="trash icon"></i></button>
+            <button class="ui button"><i class="lock icon"></i></button>
           </div>
           <div class="ui icon buttons">
-            <button class="ui button"><i class="bold icon"></i></button>
-            <button class="ui button"><i class="italic icon"></i></button>
-            <button class="ui button"><i class="heading icon"></i></button>
-            <button class="ui button"><i class="list icon"></i></button>
-            <button class="ui button"><i class="paragraph icon"></i></button>
+            <button class="ui button" onclick="bold()"><i class="bold icon"></i></button>
+            <button class="ui button" onclick="italic()"><i class="italic icon"></i></button>
+            <button class="ui button" onclick="heading()"><i class="heading icon"></i></button>
+            <button class="ui button" onclick="list()"><i class="list icon"></i></button>
+            <button class="ui button" onclick="paragraph()"><i class="paragraph icon"></i></button>
           </div>
           <div class="ui icon buttons">
             <button class="ui button"><i class="linkify icon"></i></button>
@@ -83,7 +95,7 @@
         </div>
       </div>
 
-      <div class="texteditor" contenteditable="true">
+      <div class="texteditor" id="texteditor" contenteditable="true">
         # BEM VINDO AO PROJECT EMERALD<br/>
         **Criado por André Pereira usando HTML, CSS, JS e Semantic UI**
       </div>
