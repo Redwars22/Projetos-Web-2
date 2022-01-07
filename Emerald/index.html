@@ -40,6 +40,7 @@
       .logo {
         display: grid;
         grid-template-columns: 55px auto;
+        align-items: center;
       }
 
       body {
@@ -47,9 +48,10 @@
         margin: 0px;
       }
 
-      /*.author {
+      .author {
         display: grid;
-      }*/
+        grid-template-columns: auto 60px;
+      }
 
       .author-photo {
         border-radius: 50%;
@@ -57,48 +59,65 @@
     </style>
   </head>
   <body>
-      <header>
-        <div class="logo">
-          <img src="https://redwars22.github.io/Website/img/emerald.png" width="50px"/>
-          <h1>Emerald(ALPHA)</h1>
-        </div>
-        <div class="author">
-          <p>Criado por André Pereira -></p>
-          <img src="https://github.com/Redwars22.png" class="author-photo" width="50px"/>
-        </div>
-      </header>
+    <header>
+      <div class="logo">
+        <img
+          src="https://redwars22.github.io/Website/img/emerald.png"
+          width="50px"
+        />
+        <h1>Emerald(ALPHA)</h1>
+      </div>
+      <div class="author">
+        <p>Criado por André Pereira -></p>
+        <img
+          src="https://github.com/Redwars22.png"
+          class="author-photo"
+          width="50px"
+        />
+      </div>
+    </header>
 
-      <div class="toolbar-container">
-        <div class="toolbar">
-          <div class="ui icon buttons">
-            <button class="ui button"><i class="save icon"></i></button>
-            <button class="ui button"><i class="folder open icon"></i></button>
-            <button class="ui button"><i class="trash icon"></i></button>
-            <button class="ui button"><i class="lock icon"></i></button>
-          </div>
-          <div class="ui icon buttons">
-            <button class="ui button" onclick="bold()"><i class="bold icon"></i></button>
-            <button class="ui button" onclick="italic()"><i class="italic icon"></i></button>
-            <button class="ui button" onclick="heading()"><i class="heading icon"></i></button>
-            <button class="ui button" onclick="list()"><i class="list icon"></i></button>
-            <button class="ui button" onclick="paragraph()"><i class="paragraph icon"></i></button>
-          </div>
-          <div class="ui icon buttons">
-            <button class="ui button"><i class="linkify icon"></i></button>
-            <button class="ui button"><i class="code icon"></i></button>
-            <button class="ui button"><i class="image icon"></i></button>
-            <button class="ui button"><i class="table icon"></i></button>
-          </div>
-          <div class="ui icon buttons">
-            <button class="ui button"><i class="question icon"></i></button>
-            <button class="ui button"><i class="info icon"></i></button>
-          </div>
+    <div class="toolbar-container">
+      <div class="toolbar">
+        <div class="ui icon buttons">
+          <button class="ui button"><i class="save icon"></i></button>
+          <button class="ui button"><i class="folder open icon"></i></button>
+          <button class="ui button"><i class="trash icon"></i></button>
+          <button class="ui button"><i class="lock icon"></i></button>
+        </div>
+        <div class="ui icon buttons">
+          <button class="ui button" onclick="bold()">
+            <i class="bold icon"></i>
+          </button>
+          <button class="ui button" onclick="italic()">
+            <i class="italic icon"></i>
+          </button>
+          <button class="ui button" onclick="heading()">
+            <i class="heading icon"></i>
+          </button>
+          <button class="ui button" onclick="list()">
+            <i class="list icon"></i>
+          </button>
+          <button class="ui button" onclick="paragraph()">
+            <i class="paragraph icon"></i>
+          </button>
+        </div>
+        <div class="ui icon buttons">
+          <button class="ui button"><i class="linkify icon"></i></button>
+          <button class="ui button"><i class="code icon"></i></button>
+          <button class="ui button"><i class="image icon"></i></button>
+          <button class="ui button"><i class="table icon"></i></button>
+        </div>
+        <div class="ui icon buttons">
+          <button class="ui button"><i class="question icon"></i></button>
+          <button class="ui button"><i class="info icon"></i></button>
         </div>
       </div>
+    </div>
 
-      <div class="texteditor" id="texteditor" contenteditable="true">
-        # BEM VINDO AO PROJECT EMERALD<br/>
-        **Criado por André Pereira usando HTML, CSS, JS e Semantic UI**
-      </div>
+    <div class="texteditor" id="texteditor" contenteditable="true">
+      # BEM VINDO AO PROJECT EMERALD<br />
+      **Criado por André Pereira usando HTML, CSS, JS e Semantic UI**
+    </div>
   </body>
 </html>
