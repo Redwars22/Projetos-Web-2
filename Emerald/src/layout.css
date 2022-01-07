@@ -33,3 +33,7 @@ body {
 .logo {
     align-items: center;
 }
+
+.footer-text {
+    text-align: center;
+}
