@@ -1,5 +1,16 @@
-function save(){}
+function saveData(){
+    let data = document.getElementById('texteditor').innerText;
+    localStorage.setItem('textdata', data);
+}
 
-function open(){}
+function getData(){
+    if(localStorage.getItem('textdata') === null){
+        window.alert(
+            'ERRO: não há nada salvo para ser aberto ou as informações foram corrompidas!'
+        );
+    } else {
+        document.getElementById('texteditor').innerText = localStorage.getItem('textdata');
+    }
+}
 
-function delete(){}
+function deleteData(){}

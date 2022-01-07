@@ -28,7 +28,7 @@
       }
 
       .texteditor {
-        margin: 20px 10% 20px 10%;
+        margin: 10px 10% 10px 10%;
         background-color: rgb(231, 231, 228);
         padding: 15px;
         height: 75%;
@@ -41,7 +41,7 @@
         display: grid;
         grid-template-columns: 55px 75% 20%;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
       }
 
       body {
@@ -103,9 +103,9 @@
     <div class="toolbar-container">
       <div class="toolbar">
         <div class="ui icon buttons">
-          <button class="ui button"><i class="save icon"></i></button>
-          <button class="ui button"><i class="folder open icon"></i></button>
-          <button class="ui button"><i class="trash icon"></i></button>
+          <button class="ui button" onclick="saveData()"><i class="save icon"></i></button>
+          <button class="ui button" onclick="getData()"><i class="folder open icon"></i></button>
+          <button class="ui button" onclick="deleteData()"><i class="trash icon"></i></button>
           <button class="ui button" onclick="lock()"><i class="lock icon"></i></button>
         </div>
 
