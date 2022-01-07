@@ -21,7 +21,7 @@ body {
     background-color: rgb(148, 146, 146);
     border: 2px solid grey;
     color: rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .app-title {
