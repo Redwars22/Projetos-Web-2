@@ -1,0 +1,35 @@
+.toolbar-container {
+    display: grid;
+    place-items: center;
+}
+
+.texteditor {
+    margin: 10px 10% 10px 10%;
+    padding: 15px;
+    height: 75%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 55px 75% 20%;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+body {
+    padding: 20px;
+    margin: 0px;
+}
+
+.author-name {
+    margin-right: 10px;
+}
+
+.author-box {
+    padding: 15px;
+    margin-left: auto;
+}
+
+.logo {
+    align-items: center;
+}
