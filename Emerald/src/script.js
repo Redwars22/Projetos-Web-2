@@ -4,4 +4,6 @@ function about(){
     );
 }
 
-function help(){}
+function help(){
+    window.open("/help.html");
+}

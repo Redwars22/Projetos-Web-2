@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <title>Document</title>
+    <title>Project Emerald - Criado por André Pereira</title>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"
       integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw=="
@@ -20,7 +20,7 @@
     <script src="src/script.js"></script>
     <script src="src/datahandling.js"></script>
     <link rel="stylesheet" href="src/theme.css" />
-    <link rel="stylesheet" href="src/layout.css">
+    <link rel="stylesheet" href="src/layout.css" />
   </head>
 
   <body>
@@ -48,10 +48,18 @@
     <div class="toolbar-container">
       <div class="toolbar">
         <div class="ui icon buttons">
-          <button class="ui button" onclick="saveData()"><i class="save icon"></i></button>
-          <button class="ui button" onclick="getData()"><i class="folder open icon"></i></button>
-          <button class="ui button" onclick="deleteData()"><i class="trash icon"></i></button>
-          <button class="ui button" onclick="lock()"><i class="lock icon"></i></button>
+          <button class="ui button" onclick="saveData()">
+            <i class="save icon"></i>
+          </button>
+          <button class="ui button" onclick="getData()">
+            <i class="folder open icon"></i>
+          </button>
+          <button class="ui button" onclick="deleteData()">
+            <i class="trash icon"></i>
+          </button>
+          <button class="ui button" onclick="lock()">
+            <i class="lock icon"></i>
+          </button>
         </div>
 
         <div class="ui icon buttons">
@@ -64,24 +72,36 @@
           <button class="ui button" onclick="heading()">
             <i class="heading icon"></i>
           </button>
-          <button class="ui button" onclick="list()">
-            <i class="list icon"></i>
-          </button>
           <button class="ui button" onclick="paragraph()">
             <i class="paragraph icon"></i>
           </button>
         </div>
 
         <div class="ui icon buttons">
-          <button class="ui button" onclick="link()"><i class="linkify icon"></i></button>
-          <button class="ui button" onclick="code()"><i class="code icon"></i></button>
-          <button class="ui button" onclick="image()"><i class="image icon"></i></button>
-          <button class="ui button" onclick="table()"><i class="table icon"></i></button>
+          <button class="ui button" onclick="link()">
+            <i class="linkify icon"></i>
+          </button>
+          <button class="ui button" onclick="code()">
+            <i class="code icon"></i>
+          </button>
+          <button class="ui button" onclick="list()">
+            <i class="list icon"></i>
+          </button>
+          <button class="ui button" onclick="image()">
+            <i class="image icon"></i>
+          </button>
+          <button class="ui button" onclick="table()">
+            <i class="table icon"></i>
+          </button>
         </div>
 
         <div class="ui icon buttons">
-          <button class="ui button" onclick="help()"><i class="question icon"></i></button>
-          <button class="ui button" onclick="about()"><i class="info icon"></i></button>
+          <button class="ui button" onclick="help()">
+            <i class="question icon"></i>
+          </button>
+          <button class="ui button" onclick="about()">
+            <i class="info icon"></i>
+          </button>
         </div>
       </div>
     </div>
@@ -93,6 +113,9 @@
   </body>
 
   <footer>
-    <span class="footer-text"><strong>Project Emerald</strong>. Criado por André Pereira em HTML, CSS, JavaScript, SemanticUI</span>
+    <span class="footer-text"
+      ><strong>Project Emerald</strong>. Criado por André Pereira em HTML, CSS,
+      JavaScript, SemanticUI</span
+    >
   </footer>
 </html>
