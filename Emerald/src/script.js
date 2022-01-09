@@ -5,5 +5,5 @@ function about(){
 }
 
 function help(){
-    window.open("/help.html");
+    window.open("help.html");
 }
