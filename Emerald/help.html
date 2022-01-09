@@ -18,96 +18,117 @@
     />
 
     <style>
-        header {
-            display: flex;
-            justify-content: space-between;
-            max-width: 50%;
-            flex-direction: row;
-        }
+      @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 
-        main {
-            height: 50%;
-            width: 50%;
-            background-color: #c7c7c7;
-            border-radius: 10px;
-            border: 5px solid grey;
-            overflow: auto;
-        }
+      * {
+        font-family: "Fira Code", monospace;
+      }
 
-        .title {
-            display: grid;
-            grid-template-columns: 25px auto;
-        }
+      header {
+        margin-bottom: 30px;
+        text-align: center;
+      }
 
-        section {
-            border-bottom: 1px dotted grey;
-        }
+      main {
+        height: 50%;
+        width: 50%;
+        background-color: #c7c7c7;
+        border-radius: 10px;
+        border: 5px solid grey;
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+      }
 
-        aside, footer {
-            justify-content: center;
-        }
+      section {
+        border-bottom: 1px dotted grey;
+        margin-top: 10px;
+      }
 
-        body {
-          place-items: center;
-        }
+      aside,
+      footer {
+        margin-top: 10px;
+        justify-content: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
 
-        .app-logo {
-          max-height: 50px;
-          max-width: 50px;
-        }
+      body {
+        margin-top: 5%;
+      }
+
+      .app-logo {
+        max-height: 50px;
+        max-width: 50px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      p {
+        padding: 3px;
+        margin-bottom: 10px;
+      }
+
+      .title {
+        margin-bottom: 10px;
+      }
     </style>
   </head>
 
   <body>
     <header>
-      <img src="emerald.png" width="50px" class="app-logo" />
       <h1>AJUDA DO PROJECT EMERALD</h1>
     </header>
 
     <main>
       <section>
         <div class="title">
-          <i class="question icon"></i>
-          <h2>Título</h2>
+          <h2>ARQUIVOS: SALVAR, ABRIR, DELETAR E BLOQUEAR EDIÇÕES</h2>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-          asperiores accusamus nulla temporibus. Tenetur voluptate minus maxime
-          veniam, nobis modi inventore ipsa. Libero quis ipsa debitis quos natus
-          dignissimos culpa.
+          O primeiro botão, com ícone de disquete, salva o arquivo em que você
+          estava trabalhando. O botão com ícone de pasta abre o que já estava
+          salvo na memória. O terceiro botão, com o ícone de uma lixeira, deleta
+          tudo o que estiver salvo (esta ação é <u>IRREVERSÍVEL</u>). O quarto e
+          último botão, semelhante a um cadeado, desabilita a caixa de texto
+          para impedir que você edite algo acidentalmente. Para habilitá-la,
+          clique no ícone outra vez.
         </p>
       </section>
 
       <section>
         <div class="title">
-          <i class="question icon"></i>
-          <h2></h2>
+          <h2>FORMATAÇÃO MARKDOWN</h2>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-          asperiores accusamus nulla temporibus. Tenetur voluptate minus maxime
-          veniam, nobis modi inventore ipsa. Libero quis ipsa debitis quos natus
-          dignissimos culpa.
+          Os botões do segundo e terceiro grupos adicionam formatação markdown
+          ao seu texto. Você também pode adicionar tags HTML manualmente. No
+          entanto, pode não ser compatível em alguns lugares, como o GitHub, por
+          exemplo.
         </p>
       </section>
 
       <section>
         <div class="title">
-          <i class="question icon"></i>
-          <h2></h2>
+          <h2>RELATAR BUG OU OBTER CÓDIGO-FONTE</h2>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-          asperiores accusamus nulla temporibus. Tenetur voluptate minus maxime
-          veniam, nobis modi inventore ipsa. Libero quis ipsa debitis quos natus
-          dignissimos culpa.
+          Para relatar um bug, você pode entrar em contato comigo pelo meu
+          e-mail <a href="mailto:andrewpereira.megabyte@gmail.com" class="ui red button">
+          AQUI</a>. Para obter o código de fonte desta e de outras aplicações web
+          minhas, visite meus repositórios de projetos no GitHub
+          <a href="https://github.com/Redwars22" class="ui purple button">AQUI</a>.
         </p>
       </section>
     </main>
 
     <aside>
-      <button class="ui grey button">VOLTAR AO EMERALD</button>
-      <button class="ui blue button">GUIA DE REFERÊNCIA MARKDOWN</button>
+      <a class="ui grey button" href="index.html">VOLTAR AO EMERALD</a>
+      <a class="ui blue button" href="https://www.markdownguide.org/basic-syntax/">GUIA DE REFERÊNCIA MARKDOWN</a>
     </aside>
 
     <footer>

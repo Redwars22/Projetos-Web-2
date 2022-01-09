@@ -28,6 +28,7 @@ body {
 .author-box {
     padding: 15px;
     margin-left: auto;
+    justify-content: right;
 }
 
 .logo {
