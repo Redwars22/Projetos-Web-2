@@ -30,6 +30,7 @@ function resetData(){
     }
 }
 
+//Fechar a caixa de aviso ao clicar e aumentar a altura das caixas de texto
 function dismiss(){
     document.getElementById('alert').remove();
     document.getElementById('todo').style.height = "370px";

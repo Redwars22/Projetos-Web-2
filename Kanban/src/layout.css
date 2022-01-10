@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 
 body {
-    padding: 30px;
+    padding: 20px;
     padding-top: 4px;
     padding-bottom: 0px;
 }
@@ -14,7 +14,7 @@ body {
 header {
     display: grid;
     grid-template-columns: 58px auto 10%;
-    align-items:center;
+    align-items: center;
 }
 
 main {
