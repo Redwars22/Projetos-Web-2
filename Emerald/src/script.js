@@ -1,6 +1,6 @@
 function about(){
     window.alert(
-        "ProjectEmerlald ALPHA v1.0.2 UPDATE 3. Criado por André Pereira usando HTML, CSS, JavaScript e SemanticUI."
+        "ProjectEmerlald BETA v1.1.0 UPDATE 4. Criado por André Pereira usando HTML, CSS, JavaScript e SemanticUI."
     );
 }
 
