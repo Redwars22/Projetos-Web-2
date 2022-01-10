@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+        .box {
+            background-color: #f1f1f2;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .bottom-inner-box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;;
+        }
+    </style>
+  </head>
+  <body>
     <div class="box">
-        <h2>Bem-vindo ao Emerald</h2>
-        <div class="bottom-inner-box">
-            <img src="emerald.png"/>
-            <button class="ui loading"></button>
-        </div>
+      <h1>Bem-vindo ao Emerald</h1>
+      <div class="bottom-inner-box">
+        <img src="emerald.png" width="25px" height="25px"/>
+        <button class="ui loading massive disabled button"></button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
