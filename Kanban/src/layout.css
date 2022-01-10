@@ -13,13 +13,13 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 58px 60px auto 10%;
+    grid-template-columns: 58px auto 10%;
     align-items:center;
 }
 
 main {
     display: grid;
-    grid-template-columns: 25% 25% 25%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 50px auto;
     text-align: center;
     gap: 10px;
@@ -27,11 +27,12 @@ main {
 }
 
 .textbox {
-    min-width: auto;
-    min-height: 300px;
+    max-width: auto;
+    height: 300px;
     border-radius: 10px;
     padding: 10px;
     text-align: left;
+    overflow: auto;
 }
 
 

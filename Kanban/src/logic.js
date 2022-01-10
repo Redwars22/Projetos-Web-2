@@ -30,7 +30,14 @@ function resetData(){
     }
 }
 
+function dismiss(){
+    document.getElementById('alert').remove();
+    document.getElementById('todo').style.height = "370px";
+    document.getElementById('doing').style.height = "370px";
+    document.getElementById('done').style.height = "370px";
+}
+
 window.onload = function(){
     loadData();
-    window.alert("ESSA É UMA VERSÃO BETA E, PORTANTO, PODE NÃO FUNCIONAR COMO ESPERADO. NÃO USE ESTE APP PARA GUARDAR INFORMAÇÕES IMPORTANTES ATÉ QUE ESTEJA ESTÁVEL!!!");
+    //window.alert("ESSA É UMA VERSÃO BETA E, PORTANTO, PODE NÃO FUNCIONAR COMO ESPERADO. NÃO USE ESTE APP PARA GUARDAR INFORMAÇÕES IMPORTANTES ATÉ QUE ESTEJA ESTÁVEL!!!");
 }
