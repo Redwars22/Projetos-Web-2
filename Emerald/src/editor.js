@@ -1,11 +1,11 @@
 var locked = false;
 
 function bold() {
-  document.getElementById("texteditor").innerText += " ** texto negrito **";
+  document.getElementById("texteditor").innerText += " **texto negrito**";
 }
 
 function italic() {
-  document.getElementById("texteditor").innerText += " * texto itálico *";
+  document.getElementById("texteditor").innerText += " *texto itálico*";
 }
 
 function heading() {
