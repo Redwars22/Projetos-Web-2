@@ -4,11 +4,11 @@
 
 <img src='https://raw.githubusercontent.com/Redwars22/Web2/main/Emerald/emerald_screenshot.png' width='720px'/>
 
-# 🇧🇷 PORTUGUÊS(BRASIL)
-## ℹ️ DESCRIÇÃO E RECURSOS
+## 🇧🇷 PORTUGUÊS(BRASIL)
+### ℹ️ DESCRIÇÃO E RECURSOS
 O Emerald é um editor de texto online e fácil de usar. Você também pode usá-lo para escrever em Markdown. Na caixa de ferramentas, você encontra várias opções comuns de formatação Markdown, tais como negrito, itálico, título e até elementos como imagens, listas e tabelas.
 
-## 🧰 FERRAMENTAS USADAS PARA DESENVOLVÊ-LO
+### 🧰 FERRAMENTAS USADAS PARA DESENVOLVÊ-LO
 - Visual Studio Code e [Visual Studio Code Web](https://vscode.dev)
 - Ubuntu 21.04
 - HTML
@@ -18,11 +18,11 @@ O Emerald é um editor de texto online e fácil de usar. Você também pode usá
 
 **Para executar a aplicação, clique em seu ícone acima**
 
-# 🇺🇸 ENGLISH
-## ℹ️ DESCRIPTION AND FEATURES
+## 🇺🇸 ENGLISH
+### ℹ️ DESCRIPTION AND FEATURES
 Emerald is an online and easy to use text editor. You can also use it to write in Markdown. You can find several common Markdown formating options, such as bold, italic, heading and also elements such as images, lists, and tables in the toolbar.
 
-## 🧰 TOOLS I USED TO MAKE IT
+### 🧰 TOOLS I USED TO MAKE IT
 - Visual Studio Code and [Visual Studio Code Web](https://vscode.dev)
 - Ubuntu 21.04
 - HTML
