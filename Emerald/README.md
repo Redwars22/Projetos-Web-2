@@ -16,7 +16,7 @@ O Emerald é um editor de texto online e fácil de usar. Você também pode usá
 - JavaScript (LocalStorage para guardar os dados)
 - Semantic UI
 
-** Para executar a aplicação, clique em seu ícone acima **
+**Para executar a aplicação, clique em seu ícone acima**
 
 # 🇺🇸 ENGLISH
 ## ℹ️ DESCRIPTION AND FEATURES
@@ -30,4 +30,4 @@ Emerald is an online and easy to use text editor. You can also use it to write i
 - JavaScript (LocalStorage to save the data)
 - Semantic UI
 
-** To run the app, just click on its icon above **
+**To run the app, just click on its icon above**
