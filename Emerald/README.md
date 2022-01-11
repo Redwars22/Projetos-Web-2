@@ -2,7 +2,7 @@
 <img src='https://redwars22.github.io/Website/img/emerald.png' width='50px' height='50px'/>
 </a>
 
-<img src='endereço da imagem' width='720px'/>
+<img src='https://raw.githubusercontent.com/Redwars22/Web2/main/Emerald/emerald_screenshot.png' width='720px'/>
 
 # 🇧🇷 PORTUGUÊS(BRASIL)
 ## ℹ️ DESCRIÇÃO E RECURSOS
