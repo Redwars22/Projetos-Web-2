@@ -9,8 +9,7 @@
 
 ## 📁 PROJETOS/PROJECTS
 
-![BANNER](https://user-images.githubusercontent.com/26885598/147388872-3e9f6666-cf33-4a4f-8040-aef3880963b7.png)
-
+![BANNER (1)](https://user-images.githubusercontent.com/26885598/149232279-a80a633d-53a4-46ed-a6a5-6fc743309e1a.png)
 
 | 🔴 Icon | 🗂 Project | 🖥️ Technology | ▶ Run | 📚 Category |
 |--- |--- |--- |--- |--- |
