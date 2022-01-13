@@ -33,6 +33,7 @@ main {
     padding: 10px;
     text-align: left;
     overflow: auto;
+    font-weight: bold;
 }
 
 
