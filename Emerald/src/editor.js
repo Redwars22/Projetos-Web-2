@@ -1,11 +1,11 @@
 var locked = false;
 
 function bold() {
-  document.getElementById("texteditor").innerText += " ** texto negrito **";
+  document.getElementById("texteditor").innerText += " **texto negrito**";
 }
 
 function italic() {
-  document.getElementById("texteditor").innerText += " * texto itálico *";
+  document.getElementById("texteditor").innerText += " *texto itálico*";
 }
 
 function heading() {
@@ -53,7 +53,8 @@ function lock() {
     locked = true;
     document.getElementById("texteditor").contentEditable = false;
     window.alert(
-      "O campo de texto foi bloqueado para evitar alterações acidentais. Para desbloqueá-lo, clique novamente no ícone de cadeado."
+      "O campo de texto foi bloqueado para evitar alterações acidentais." +
+      " Para desbloqueá-lo, clique novamente no ícone de cadeado."
     );
   }
 }
