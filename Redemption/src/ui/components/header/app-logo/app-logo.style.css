@@ -1,0 +1,15 @@
+.app-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.beta-alert {
+  font-size: 20px;
+  color: red;
+  margin: 5px 5px;
+}
+
+.app-logo-container {
+  display: flex;
+  align-items: center;
+}

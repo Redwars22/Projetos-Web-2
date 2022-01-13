@@ -1,0 +1,17 @@
+.feedback-icon {
+  width: 40px;
+}
+
+.feedback-text {
+  color: white;
+}
+
+.feedback-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  background-color: #ad1457;
+  padding: 5px;
+  border-radius: 10px;
+}
