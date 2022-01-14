@@ -39,6 +39,7 @@ function dismiss() {
   document.getElementById("todo").style.height = "370px";
   document.getElementById("doing").style.height = "370px";
   document.getElementById("done").style.height = "370px";
+  localStorage.setItem("hideDialogBox", "yes");
 }
 
 function markEverythingAsDone() {
@@ -58,11 +59,16 @@ function markEverythingAsDone() {
 
 function changelog() {
   window.alert(
-    "CHANGELOG DA VERSÃO: \n1-Fonte mudada para JetBrains Mono\n2-Botão marcar tudo como concluído."
+    "CHANGELOG DA VERSÃO: \n1-Fonte mudada para JetBrains Mono" +
+    "\n2-Botão marcar tudo como concluído." + 
+    "\n3-A caixa de diálogo agora pode ser escondida permanentemente."
   );
 }
 
 window.onload = function () {
   loadData();
   //window.alert("ESSA É UMA VERSÃO BETA E, PORTANTO, PODE NÃO FUNCIONAR COMO ESPERADO. NÃO USE ESTE APP PARA GUARDAR INFORMAÇÕES IMPORTANTES ATÉ QUE ESTEJA ESTÁVEL!!!");
+
+  if(localStorage.getItem("hideDialogBox") == "yes")
+    dismiss();
 };
