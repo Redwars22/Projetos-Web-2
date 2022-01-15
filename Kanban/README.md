@@ -1,5 +1,5 @@
 <a href="https://redwars22.github.io/Projetos-Web-2/Kanban/">
-  <img src="https://redwars22.github.io/Web2/Kanban/src/kanban.png" width="70px"/>
+  <img src="https://redwars22.github.io/Projetos-Web-2/Kanban/src/kanban.png" width="70px"/>
 </a>
 
 <img src="https://user-images.githubusercontent.com/26885598/147885554-eefe3d11-2c92-4b68-ba59-e56f6466df1b.png" width="720px"/>
