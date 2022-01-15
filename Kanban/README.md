@@ -1,4 +1,4 @@
-<a href="https://redwars22.github.io/Web2/Kanban/">
+<a href="https://redwars22.github.io/Projetos-Web-2/Kanban/">
   <img src="https://redwars22.github.io/Web2/Kanban/src/kanban.png" width="70px"/>
 </a>
 
