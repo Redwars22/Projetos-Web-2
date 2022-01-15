@@ -13,7 +13,7 @@
 
 | 🔴 Icon | 🗂 Project | 🖥️ Technology | ▶ Run | 📚 Category |
 |--- |--- |--- |--- |--- |
-| <img src="https://raw.githubusercontent.com/Redwars22/Web2/main/Aftermath/src/aftermath.png" width="50px"/> | **Aftermath(BETA)** | HTML, CSS, Fluent UI| [▶️](https://redwars22.github.io/Projetos-Web-2//Aftermath/splash.html) | HTML/CSS Editor |
+| <img src="https://raw.githubusercontent.com/Redwars22/Web2/main/Aftermath/src/aftermath.png" width="50px"/> | **Aftermath(BETA)** | HTML, CSS, Fluent UI| [▶️](https://redwars22.github.io/Projetos-Web-2/Aftermath/splash.html) | HTML/CSS Editor |
 | <img src="https://redwars22.github.io/Website/img/armadillo.png" width="50px"> | **Armadillo** | ReactJS | [▶️](https://projectarmadillo2022.firebaseapp.com/?63645) | Game store |
 | <img src="https://raw.githubusercontent.com/Redwars22/Web2/main/D%C3%A9kount/src/dekount.png" width="50px"> | **Dékount** | PHP/HTML | [▶️](https://projectdekount.redwars22.repl.co) | Discount calculator |
 | <img src="https://redwars22.github.io/Website/img/emerald.png" width="50px"/> | **Emerald(BETA)** | HTML, CSS, JS, Semantic UI | [▶️](https://redwars22.github.io/Projetos-Web-2/Emerald/splash.html) | Text Editor/Markdown Editor |
